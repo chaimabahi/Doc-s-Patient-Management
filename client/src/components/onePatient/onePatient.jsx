@@ -3,7 +3,6 @@ import axios from 'axios';
 
 const OnePatient = (props) => {
 
-  // const [id, setId] = useState(null)
   const [name, setName] = useState(props.patient.Name)
   const [date, setDate] = useState(props.patient.Date_Of_Birth)
   const [gender, setGender] = useState(props.patient.Gender)
